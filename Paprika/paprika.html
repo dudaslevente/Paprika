@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="paprika.css">
-    <title>Paprikák?</title>
+    <title>Paprika</title>
 </head>
 <body>
     <div>
@@ -14,20 +14,31 @@
                 <h1>Ismered a legerősebbet?</h1>
             </header>
         </div>
-        
+        <div id="menu"></div>
             <h2>Fajtái</h2>
     
             <p>Öt faját, de sok változattal termesztik szerte a világon.</p>
     
-            <div id="menu">
-                <ul>
-                    <li>Közönséges paprika</li>
-                    <li>Cserjés paprika</li>
-                    <li>Kínai paprika</li>
-                    <li>Bogyós paprika</li>
-                    <li>Szőrös paprika</li>
-                </ul>
-            </div>
+            <ul style="list-style-image: url('chili-pepper-icon.gif');">
+                <table>
+                    <tr>
+                        <td class="fajtak"><a href="MicrosoftTeams-image.png" target="_blank"><li>Közönséges paprika</li></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fajtak"><a href="https://hu.wikipedia.org/wiki/Cserj%C3%A9s_paprika" target="_blank"><li>Cserjés paprika</li></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fajtak"><a href="https://hu.wikipedia.org/wiki/K%C3%ADnai_paprika" target="_blank"><li>Kínai paprika</li></a></td> 
+                    </tr>
+                    <tr>
+                        <td class="fajtak"><a href="https://hu.wikipedia.org/wiki/Bogy%C3%B3s_paprika" target="_blank"><li>Bogyós paprika</li></a></td>
+                    </tr>
+                    <tr>
+                        <td class="fajtak"><a href="https://hu.wikipedia.org/wiki/Sz%C5%91r%C3%B6s_paprika" target="_blank"><li>Szőrös paprika</li></a></td>
+                    </tr>
+                </table>
+            </ul>
+        </div>
     
         <div id="tartalom">
             <h2>Bemutatása</h2>
@@ -38,24 +49,24 @@
     
             <table>
                 <tr>
-                    <td>Paprika</td>
-                    <td>Csípősség(Scoville értéke)</td>
+                    <th>Paprika</th>
+                    <th class="jobb">Csípősség(Scoville értéke)</th>
                 </tr>
                 <tr>
-                    <td>zöldpaprika</td>
-                    <td>0</td>
+                    <th>zöldpaprika</th>
+                    <th class="jobb" id="zöld">0</th>
                 </tr>
                 <tr>
-                    <td>a kevésbé csípős hazai paprikák</td>
-                    <td>500-1000</td>
+                    <th>a kevésbé csípős hazai paprikák</th>
+                    <th class="jobb" id="sárga">500-1000</th>
                 </tr>
                 <tr>
-                    <td>csípős paprikák</td>
-                    <td>1500-2500</td>
+                    <th>csípős paprikák</th>
+                    <th class="jobb" id="piros">1500-2500</th>
                 </tr>
                 <tr>
-                    <td>a mexikói Serrano chili</td>
-                    <td>5000-20000</td>
+                    <th>a mexikói Serrano chili</th>
+                    <th class="jobb" id="lila">5000-20000</th>
                 </tr>
             </table>
         </div>
