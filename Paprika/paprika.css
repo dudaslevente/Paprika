@@ -7,6 +7,11 @@ h1{
     background-image: url("MicrosoftTeams-image.png");
     color: white;
     background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    padding: 30px;
+    font-size: 35px;
 }
 
 table, th{
@@ -20,25 +25,23 @@ table, th{
     width: 120px;
 }
 
-
-
-#sárga{
-    background-color: yellow;
-}
-
-#piros{
-    background-color: red;
-}
-
-#lila{
-    background-color: magenta;
-}
-
 a{
     text-decoration: none;
     color: black;
 }
 
-#bemutatasa{
-    float: right;
+nav ul{
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+nav{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+article{
+    padding: 0px;
+    width: 700px; 
 }
