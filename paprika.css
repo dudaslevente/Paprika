@@ -1,0 +1,72 @@
+body{
+    background-color: #FFEFD5 ;
+    color: #8B4513 ;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+}
+
+h1{
+    background-image: url("MicrosoftTeams-image\ \(3\).png");
+    color: black;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: auto;
+    font-size: 35px;
+    background-size: cover;
+}
+
+li{
+    border: 1px solid lightblue;
+    background-color: whitesmoke;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+table, th{
+    width: 300px;
+    text-align: center;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    height: 30px;
+}
+
+.jobb{
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+nav{
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+article{
+    padding: 0px;
+    width: 600px; 
+}
+
+article table{
+    margin-left: 150px;
+}
+
+.fajta{
+    text-align: left;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
