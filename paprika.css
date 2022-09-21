@@ -53,13 +53,13 @@ nav{
     padding: 20px;
 }
 
-article{
+article h2 p{
     padding: 0px;
     width: 600px; 
 }
 
 article table{
-    margin-left: 150px;
+    margin-left: 500px;
 }
 
 .fajta{
