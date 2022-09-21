@@ -1,2 +1,2 @@
 # Paprika
-file:///C:/Users/pc/Documents/GitHub/Paprika/index.html
+https://dudaslevente.github.io/Paprika/
