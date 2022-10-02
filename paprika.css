@@ -41,36 +41,54 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+
 body{
     background-color: #FFEFD5 ;
     color: #8B4513 ;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 0px;
+    margin: auto;
 }
 
-h1{
+#fejlec{
     background-image: url("MicrosoftTeams-image\ \(3\).png");
     color: black;
     background-repeat: no-repeat;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-top: auto;
     font-size: 35px;
     background-size: cover;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+header{
+    margin-left: 20px
+}
+
+header h1{
+    font-weight: bold;
 }
 
 li{
     border: 1px solid lightblue;
     background-color: whitesmoke;
     font-weight: bold;
-    padding-top: 10px;
-    text-align: justify;
 }
 
 table, th{
-    width: 300px;
+    margin: auto;
     text-align: center;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    height: 30px;
+}
+
+td{
+    margin: auto;
+    text-align: left;
     border: 1px solid gray;
     border-collapse: collapse;
     height: 30px;
@@ -80,45 +98,49 @@ table, th{
     width: 120px;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
-.fajta{
-    text-align: left;
-}
-
 #menu{
-    Padding-right: 10px;
-    margin: 1%;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+#menu h2{
+    font-size: 25px;
+    font-weight: bold;
 }
 
 #tartalom{
-    margin: 1%;
-    float: right;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+#tartalom h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+table th{
+    font-weight: bold;
 }
 
 .topnav {
-    overflow: hidden;
-    background-color: #333;
     position: relative;
-  }
+}
   
 .topnav #myLinks {
     display: none;
 }
   
 .topnav a {
-    color: white;
-    padding: 14px 16px;
+    color: black;
+    padding: 0px 0px 1px 5px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     display: block;
+    margin: auto;
 }
   
 .topnav a.icon {
-    background: black;
+    background: gray;
     display: block;
     position: absolute;
     right: 0;
@@ -126,12 +148,10 @@ a{
 }
   
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: lightblue;
     color: black;
 }
   
 .active {
-    background-color: #04AA6D;
-    color: white;
+    color: whitesmoke;
 }
-
