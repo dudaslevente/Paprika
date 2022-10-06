@@ -78,6 +78,7 @@ li{
     font-weight: bold;
     padding-bottom: 3px;
     padding-left: 3px;
+    text-decoration: none;
 }
 
 table, th{
@@ -105,6 +106,7 @@ td{
     text-align: justify;
     margin-top: 30px;
     margin-left: 130px;
+    text-decoration: none;
 }
 
 #menu h2{
@@ -144,23 +146,32 @@ table th{
 }
   
 .topnav a.icon {
-    background: gray;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-}
-
-.topnav a.icon:hover{
-    background-color: gray;
+    font-size: 30px;
 }
 
 .topnav a:hover {
-    background-color: whitesmoke;
     color: black;
 }
   
 .active {
-    background-color: whitesmoke;
-    border: 1px solid lightblue;
+    background-color: #FFEFD5;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .hamburger{display: none;}
+}
+
