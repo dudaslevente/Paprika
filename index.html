@@ -15,8 +15,9 @@
             <h1>Ismered a legerősebbet?</h1>
         </header>
     </div>
+
     <div class="row container">
-        <div id="menu" class="container-fluid col-4 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+        <div class="menu" class="container-fluid col-4 col-xl-3 col-lg-3 col-md-3 col-sm-3">
             <h2>Fajtái</h2>
             <br>
             <p>Öt faját, de sok változattal termesztik szerte a világon.</p>
@@ -32,12 +33,14 @@
                     <a href="https://hu.wikipedia.org/wiki/Bogy%C3%B3s_paprika" target="_blank"><li>Bogyós paprika</li></a>
                     <br>
                     <a href="https://hu.wikipedia.org/wiki/Sz%C5%91r%C3%B6s_paprika" target="_blank"><li>Szőrös paprika</li></a>
-                </ul>
+                    </ul>
             </div>
+        </div>
     </div>
-    <div class="hamburger">
-        <div class="row container">
-            <div id="hamburger menu" class="container-fluid col-4 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+
+    <div class="container-fluid">
+        <div class="hamburger">
+            <div class="container-fluid col-4 col-xl-3 col-lg-3 col-md-3 col-sm-3">
                 <div style="list-style-type:none;" class="topnav">
                     <br>
                     <br>
@@ -52,24 +55,29 @@
                         <br>
                         <p>Szőrös paprika</p>
                     </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                </div>
-                <script>
-                    function myFunction() {
-                        var x = document.getElementById("myLinks");
-                        if (x.style.display === "block") {
-                            x.style.display = "none";
-                        }   else {
-                            x.style.display = "block";
+                    <div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+                    <script>
+                        function myFunction() {
+                            var x = document.getElementById("myLinks");
+                            if (x.style.display === "block") {
+                                x.style.display = "none";
+                            }   else {
+                                x.style.display = "block";
+                            }
                         }
-                    }
-                </script>
+                    </script>
+                </div>
             </div>
+        </div>
     </div>
-    
-        <div id="tartalom" class="col-4 col-xl-6 col-lg-6 col-md-6 col-sm-8">
+
+
+    <div class="container-fluid">
+        <div id="tartalom" class="container-fluid col-4 col-xl-6 col-lg-6 col-md-6 col-sm-8">
             <h2>Bemutatása</h2>
             <br>
             <p>A paprika a burgonyafélék közé tartozó, Közép-Amerikából származó faj. Európába Kolumbusz orvosa hozta az első paprikát. A növény termése üreges bogyótermés, amely A- és C-vitaminban igen gazdag. Csípős ízét a kapszaicin nevű hatóanyag okozza. Jelentős fűszer- és gyógynövény. Magyarországon a XVI. század óta számos változatban termesztik.</p> 
@@ -100,7 +108,7 @@
                     <th class="csipos" style="background-color: magenta;">5000-20000</th>
                 </tr>
             </table>
-        </div>
-    </div> 
+        </div> 
+    </div>
 </body>
 </html>

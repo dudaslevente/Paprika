@@ -79,6 +79,7 @@ li{
     padding-bottom: 3px;
     padding-left: 3px;
     text-decoration: none;
+    margin-left: 40px;
 }
 
 table, th{
@@ -102,21 +103,21 @@ td{
     width: 120px;
 }
 
-#menu{
-    text-align: justify;
+.menu{
     margin-top: 30px;
-    margin-left: 130px;
+    margin-left: 150px;
     text-decoration: none;
 }
 
-#menu h2{
+.menu h2{
     font-size: 25px;
     font-weight: bold;
 }
 
 #tartalom{
     margin-top: 30px;
-    margin-left: 130px;
+    float: right;
+    margin-right: 100px;
 }
 
 #tartalom h2{
@@ -171,7 +172,10 @@ a:hover{
     color: black;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 700px) {
     .hamburger{display: none;}
 }
 
+@media screen and (max-width: 700px) {
+    .menu{display: none;}
+}
