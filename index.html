@@ -16,15 +16,56 @@
         </header>
     </div>
 
-    <div class="row container">
+
+
+    
+        <div class="hamburger">
+            <div class="container-fluid"></div>
+                <div class="container-fluid col-4 col-xl-3 col-lg-3 col-md-3 col-sm-3">
+                    <div style="list-style-type:none;" class="topnav">
+                        <br>
+                        <br>
+                        <div id="myLinks">
+                            <p>Közönséges paprika</p>
+                            <br>
+                            <p>Cserjés paprika</p>
+                            <br>
+                            <p>Kínai paprika</p>
+                            <br>
+                            <p>Bogyós paprika</p>
+                            <br>
+                            <p>Szőrös paprika</p>
+                        </div>
+                        <div>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
+                        <script>
+                            function myFunction() {
+                                var x = document.getElementById("myLinks");
+                                if (x.style.display === "block") {
+                                    x.style.display = "none";
+                                }   else {
+                                    x.style.display = "block";
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    <div class="row container-fluid">
         <div class="menu" class="container-fluid col-4 col-xl-3 col-lg-3 col-md-3 col-sm-3">
             <h2>Fajtái</h2>
             <br>
             <p>Öt faját, de sok változattal termesztik szerte a világon.</p>
             <br>
-            <div>
                 <ul style="list-style-image: url('chili-pepper-icon.gif')">
-                    <a href="MicrosoftTeams-image.png" class="fajtai" target="_blank"><li>Közönséges paprika</li></a>
+                    <a href="MicrosoftTeams-image.png" target="_blank"><li>Közönséges paprika</li></a>
                     <br>  
                     <a href="https://hu.wikipedia.org/wiki/Cserj%C3%A9s_paprika" target="_blank"><li>Cserjés paprika</li></a>
                     <br>
@@ -33,47 +74,11 @@
                     <a href="https://hu.wikipedia.org/wiki/Bogy%C3%B3s_paprika" target="_blank"><li>Bogyós paprika</li></a>
                     <br>
                     <a href="https://hu.wikipedia.org/wiki/Sz%C5%91r%C3%B6s_paprika" target="_blank"><li>Szőrös paprika</li></a>
-                    </ul>
-            </div>
+                </ul>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="hamburger">
-            <div class="container-fluid col-4 col-xl-3 col-lg-3 col-md-3 col-sm-3">
-                <div style="list-style-type:none;" class="topnav">
-                    <br>
-                    <br>
-                    <div id="myLinks">
-                        <p>Közönséges paprika</p>
-                        <br>
-                        <p>Cserjés paprika</p>
-                        <br>
-                        <p>Kínai paprika</p>
-                        <br>
-                        <p>Bogyós paprika</p>
-                        <br>
-                        <p>Szőrös paprika</p>
-                    </div>
-                    <div>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                    </div>
-                    <script>
-                        function myFunction() {
-                            var x = document.getElementById("myLinks");
-                            if (x.style.display === "block") {
-                                x.style.display = "none";
-                            }   else {
-                                x.style.display = "block";
-                            }
-                        }
-                    </script>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
 
     <div class="container-fluid">
@@ -88,24 +93,24 @@
             <br>
             <table>
                 <tr>
-                    <td class="fajta">Paprika</td>
-                    <th class="csipos">Csípősség <br>(Scoville értéke)</th>
+                    <td>Paprika</td>
+                    <th>Csípősség <br>(Scoville értéke)</th>
                 </tr>
                 <tr>
-                    <td class="fajta">zöldpaprika</td>
-                    <th class="csipos" style="background-color: lightgreen">0</th>
+                    <td>zöldpaprika</td>
+                    <th style="background-color: lightgreen">0</th>
                 </tr>
                 <tr>
-                    <td class="fajta">a kevésbé csípős hazai paprikák</td>
-                    <th class="csipos" style="background-color: yellow;">500-1000</th>
+                    <td>a kevésbé csípős hazai paprikák</td>
+                    <th style="background-color: yellow;">500-1000</th>
                 </tr>
                 <tr>
-                    <td class="fajta">csípős paprikák</td>
-                    <th class="csipos" style="background-color: lightcoral;">1500-2500</th>
+                    <td>csípős paprikák</td>
+                    <th style="background-color: lightcoral;">1500-2500</th>
                 </tr>
                 <tr>
-                    <td class="fajta">a mexikói Serrano chili</td>
-                    <th class="csipos" style="background-color: magenta;">5000-20000</th>
+                    <td>a mexikói Serrano chili</td>
+                    <th style="background-color: magenta;">5000-20000</th>
                 </tr>
             </table>
         </div> 
