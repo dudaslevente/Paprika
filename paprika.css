@@ -104,7 +104,7 @@ td{
 }
 
 .menu{
-    position: relative;
+    position: absolute;
     margin-top: 30px;
     margin-left: 130px;
 }
@@ -115,9 +115,11 @@ td{
 }
 
 #tartalom{
-    position: absolute;
-    margin-left: 100px;
+    position: relative;
+    margin-right: 100px;
     margin-top: 30px;
+    margin-left: -10px;
+    float: right;
 }
 
 #tartalom h2{
@@ -131,6 +133,7 @@ table th{
 
 .topnav {
     position: relative;
+    margin-left: 55px;
 }
   
 .topnav #myLinks {
@@ -172,10 +175,10 @@ a:hover{
     color: black;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .hamburger{display: none;}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .menu{display: none;}
 }
